@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+header{
+    text-align:center;
+    background:#2c3e50;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    margin-top:30px;
+}
+
+.chart-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.chart-box:last-child{
+    grid-column:span 2;
+}
+
+canvas{
+    max-height:400px;
+}
